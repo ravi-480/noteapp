@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@500;800&family=Montserrat:wght@300&family=Nunito:wght@200;300;400;600;700&family=Poppins:ital,wght@0,300;0,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&family=Rubik:wght@400;500;600&family=Ubuntu:wght@300&family=Unbounded:wght@300;700&display=swap');
+
+:root{
+    --background-color:#FFC700;
+    --bs-primary:#12296c;
+}
+body{
+    font-family:'Poppins',sans-serif;
+    text-transform: capitalize !important;
+    background-color: var(--background-color);
+    color: #12296c;
+    font-weight: 300;
+    font-size: 1.2rem;
+    background-image: url('https://img.freepik.com/free-vector/abstract-yellow-texture_1100-141.jpg?size=626&ext=jpg&ga=GA1.2.911545006.1676916095&semt=ais');
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto',cursive;
+    font-weight: 700;
+}
+.container-fluid-custom{
+    max-width: 1600px;
+}
+/* .btn{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+} */
+
+.text-primary{
+    color: #12296c !important;
+}
+.btn-primary{
+    background-color: #12296c !important;
+    border: 1px solid #12296c !important;
+}
+.btn-primary:hover{
+    background-color: #1c3a92 !important;
+    border-color: 1px solid #061a56 !important;
+}
+
+.btn-outline-primary:hover{
+background-color: #12296c !important;
+border-color: 1px solid #061a56 !important;
+}
+
+.pagination{
+    --bs-pagination-color:var(--bs-primary)
+    --bs-pagination-active-bg:var(--bs-primary)
+    --bs-pagination-active-border-color:var(--bs-primary)
+}
+
+@media (min-width:1200px){
+    /* .home{
+    background: 
+        url("../img/human-1.svg") left bottom no-repeat,
+        url("../img/human-2.svg") no-repeat right bottom,
+        url("https://img.freepik.com/free-vector/abstract-yellow-texture_1100-141.jpg?size=626&ext=jpg&ga=GA1.2.911545006.1676916095&semt=ais") repeat,
+        var(--background-color);
+
+       
+    } */
+}
+
+.home-title::before{
+    content: url('https://cdn-icons-png.flaticon.com/128/10765/10765743.png');
+    position: absolute;
+    left: -80px;
+    top: -81px;
+}
+.home-title::after{
+    content: url('https://cdn-icons-png.flaticon.com/128/10765/10765743.png');
+    position: absolute;
+    right: -100px;
+    bottom: -80px;
+}
+.home-title{
+    font-size: 55px !important;
+}
+main p{
+    font-weight: 600 !important;
+    margin-top: -15;
+    color: #0d2a81 !important;
+}
+.header a{
+    font-weight: 700;
+    font-size: large;
+    color: #061a56;
+}
